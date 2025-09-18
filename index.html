@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="author" content="Reescrita Acadêmica">
+
+  <meta name="description" property="og:description"
+  content="Um trabalho acadêmico envolve o diálogo entre as conclusões a que seu estudo chegou e o pensamento de outros pesquisadores. Neste recurso, você vai conhecer e praticar estratégias para reescrever e referenciar citações de outros autores.">
+
+  <meta name="keywords" content="TCC, texto acadêmico, texto científico, artigo científico, redação, reescrita">
+
+  <title>Univesp | Reescrita Acadêmica</title>
+
+  <link rel="shortcut icon" href="http://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <link rel="stylesheet" href="https://apps.univesp.br/common/animate.css"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.0.css">
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
+  <!-- <div class="esconder-tela-pequena"> -->
+
+  <!-- Menu -->
+  <nav>
+    <div class="container d-flex justify-content-end">
+
+      <div class="logo">
+
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/colorida-positiva.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp em letras maiúsculas, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+
+      </div>
+
+      <ul class="nav justify-content-end">
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Menu de acessibilidade">accessibility_new</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            ...
+          </div>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing" id="share-buttons"></div>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+  <div id="headerImpressao print" class="d-none d-print-block text-center" style="display: inline-flex;">
+    <img src="https://apps.univesp.br/common/traco-positiva.svg" style="width: 30%;">
+    <h1>Reescrita Acadêmica<br/>
+    </h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;apps.univesp.br/reescrita-acadêmica</p>
+  </div>
+  <!-- Conteúdo -->
+  <main id="conteudoPrincipal">
+  <ul id=menu class="no_print" style="display: none; list-style-type: none;">
+<li><div class="btn-c active" style="display: none;" id="click1">1</div>
+<li><div class="btn-c" style="display: none;" id="click2">2</div>
+<li><div class="btn-c" style="display: none;" id="click3">3</div>
+<li><div class="btn-c" style="display: none;" id="click4">3.1</div>
+<li><div class="btn-c" style="display: none;" id="click5">3.2</div>
+<li><div class="btn-c" style="display: none;" id="click6">4</div>
+</ul>
+  <div class="container etapa1">
+  <div class="container">
+        <div class="row justify-content-center">
+         	<div class="col-12 relative">
+				<div class="titulo">Reescrita Acadêmica</div>
+			</div>
+		</div>
+	</div>		
+	<div class="container" style="max-width: 700px;">
+            <div class="row justify-content-center">
+            <div class="intro" align="center">
+            <p>
+              O que conhecemos hoje é resultado de séculos de história humana, de perguntas feitas e refeitas, de respostas encontradas, questionadas, reelaboradas. O método científico tem em suas bases o diálogo entre os pesquisadores, que, em um trabalho acadêmico, se dá na fundamentação ou no questionamento de conceitos elaborados por outros. E, assim, o conhecimento se constrói.</p>
+			  <p>Ao apresentar em um trabalho acadêmico o resultado de sua pesquisa, você necessariamente precisa indicar as ideias de outros autores que lhe serviram de inspiração e estímulo, seja mostrando que você concorda com essas ideias ou que você as questiona.</p>
+			  <p>Neste recurso, propomos um caminho que vai ajudar você a apresentar, de forma interessante, as ideias de outros em seu trabalho acadêmico.</p>
+  			</div>
+  			</div>
+  			<div class="row justify-content-center">
+            <button class="avancarEtapa2">Vamos lá?</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <div class="container etapa2" style="display: none;">
+      <p class="no_print">Nem sempre você vai poder reproduzir, palavra por palavra, as ideias de um autor como ele as escreveu em um livro. Vamos aqui lhe apresentar um passo a passo de como reescrever o que você leu.</p> 
+	  <p class="no_print">Agora: é importante não esquecer nunca de informar quem é o autor da ideia que você está apresentando. Citar a ideia de alguém, de forma direta ou indireta, e não dizer de quem é a autoria, é plágio.</p>
+      <p class="no_print">Para reescrever um texto você precisa:</p>
+      <button class="bg-marker1" data-toggle="collapse" data-target="#item-0" id="botao-0"><p class="sub" style="margin-bottom: 0;"><b style="color: #009691;">1 - </b> Selecionar um trecho.</p></button>
+      <div class="container">
+		<div class="collapse" id="item-0">
+		  <div class="timeline-item">
+		  <p style="margin-top: 1rem;"><i>Na coluna da esquerda você irá acompanhar um exemplo e as alterações realizadas passo a passo. Na coluna da direita há um espaço para você reproduzir o exercício a partir de um texto que você mesmo escolher.</i></p>
+			<div class="row">
+			    <div class="col-12 col-md-6">
+					<div class="contorno">
+					<p style="text-align: left; padding: 0.5%;">Mais de uma pessoa foi ouvida dizendo: “Fulano de tal me perguntou como eu estava. Que hipócrita! Se ele não se preocupa no mínimo como estou!”. Tais comentários revelam uma falta de compreensão dos complexos propósitos para os quais a linguagem é usada. Isto também se manifesta na deplorável conduta do sujeito cacete que, quando se lhe pergunta como está, passa logo a descrever seu estado de saúde – usualmente com grande extensão e copiosos detalhes. Contudo, as pessoas, quase sempre, nas festas, não falam para se instruírem mutuamente. E a pergunta comum “Como está você?” é uma saudação amistosa, não um pedido de informações clínicas. (extraído de COPI, Irving M. Introdução à lógica. 2ª ed., São Paulo: Mestre Jou, 1978, p. 47)</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="paper">
+    				<div class="paper-content">
+					<textarea placeholder="[Copie aqui um parágrafo de um texto que você queira reescrever]."></textarea>
+					</div>
+					</div>
+				</div>
+			</div>
+		   </div>
+		</div>
+		</div>
+		<button class="bg-marker2" data-toggle="collapse" data-target="#item-1" id="botao-1" disabled><p class="sub" style="margin-bottom: 0;"><b style="color: #009691;">2 - </b>Identificar o que pode e o que não pode ser mudado.</p></button>
+		<div class="container">
+		<div class="collapse" id="item-1">
+		  <div class="timeline-item">
+		  <p style="margin-top: 1rem;"><span style="background-color: #9086b2; padding: 0.5%">Conceitos</span> - não podem ser alterados;</p>
+					<p><span style="background-color: #12bfe8; padding: 0.5%">Palavras importantes</span> - podem ser trocadas por sinônimos;</p>
+					<p><span style="background-color: #f64951; padding: 0.5%">Palavras supérfluas</span> - podem ser excluídas.</p>
+			<div class="row">
+			    <div class="col-12 col-md-6">
+					<div class="contorno">
+					<p style="text-align: left; padding: 0.5%;">
+						Mais de uma pessoa foi ouvida dizendo: “Fulano <span style="background-color: #f64951; padding: 0.5%">de tal</span> me perguntou como eu estava. Que <span style="background-color: #12bfe8; padding: 0.5%">hipócrita</span>! Se ele não <span style="background-color: #12bfe8; padding: 0.5%">se preocupa no mínimo</span> como estou!”. <span style="background-color: #12bfe8; padding: 0.5%">Tais</span> comentários revelam uma falta de compreensão dos <span style="background-color: #f64951; padding: 0.5%">complexos</span> <span style="background-color: #12bfe8; padding: 0.5%">propósitos para os quais</span> <span style="background-color: #9086b2; padding: 0.5%">a linguagem</span><span style="background-color: #12bfe8; padding: 0.5%"> é usada</span>. Isto também se manifesta <span style="background-color: #12bfe8; padding: 0.5%">na</span> <span style="background-color: #f64951; padding: 0.5%">deplorável</span> <span style="background-color: #12bfe8; padding: 0.5%">conduta</span> do sujeito <span style="background-color: #12bfe8; padding: 0.5%">cacete</span> que, quando se lhe pergunta como está, passa logo a <span style="background-color: #12bfe8; padding: 0.5%">descrever</span> seu estado de saúde – <span style="background-color: #f64951; padding: 0.5%">usualmente</span> com <span style="background-color: #12bfe8; padding: 0.5%">grande extensão e</span> <span style="background-color: #f64951; padding: 0.5%">copiosos</span> detalhes. Contudo, as pessoas, <span style="background-color: #f64951; padding: 0.5%">quase sempre</span>, nas festas, não falam para <span style="background-color: #12bfe8; padding: 0.5%">se instruírem mutuamente</span>. E a pergunta <span style="background-color: #f64951; padding: 0.5%">comum</span> “Como está você?” é <span style="background-color: #12bfe8; padding: 0.5%">uma saudação</span> <span style="background-color: #f64951; padding: 0.5%">amistosa</span>, não um pedido de informações <span style="background-color: #f64951; padding: 0.5%">clínicas</span>. (extraído de COPI, Irving M. Introdução à lógica. 2. ed. São Paulo: Mestre Jou, 1978, p. 47)
+					</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="paper2">
+    				<div class="paper-content">
+					<textarea style="height: 33%;" placeholder="[Do texto que você escolheu, copie aqui as palavras que indicam conceitos]."></textarea>
+
+					<textarea style="height: 33%;" placeholder="[Do texto que você escolheu, copie aqui as palavras que podem ser trocadas por sinônimos]."></textarea>
+			
+					<textarea style="height: 33%;" placeholder="[Do texto que você escolheu, copie aqui as palavras que podem ser excluídas]."></textarea>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		<button class="bg-marker3" data-toggle="collapse" data-target="#item-2" id="botao-2" disabled><p class="sub" style="margin-bottom: 0;"><b style="color: #009691;">3 - </b>Fazer as alterações necessárias.</p></button>
+		<div class="container">
+		<div class="collapse" id="item-2">
+    <div class="timeline-item">
+		  <div class="timeline-item">
+		  <p style="margin-top: 1rem;"></p>
+			<div class="row">
+			    <div class="col-12 col-md-6">
+					<div class="contorno">
+					<p style="text-align: left; padding: 0.5%;">
+						Mais de uma pessoa foi ouvida dizendo: “Fulano me perguntou como eu estava. Que <span style="background-color: #12bfe8; padding: 0.5%">hipócrita</span>! Se ele não <span style="background-color: #12bfe8; padding: 0.5%">se preocupa no mínimo</span> como estou!”. <span style="background-color: #12bfe8; padding: 0.5%">Tais</span> comentários revelam uma falta de compreensão <span style="background-color: #12bfe8; padding: 0.5%">dos propósitos para os quais</span> <span style="background-color: #9086b2; padding: 0.5%">a linguagem</span> <span style="background-color: #12bfe8; padding: 0.5%">é usada</span>. Isto também se manifesta <span style="background-color: #12bfe8; padding: 0.5%">na conduta</span> do sujeito <span style="background-color: #12bfe8; padding: 0.5%">cacete</span> que, quando se lhe pergunta como está, passa logo a <span style="background-color: #12bfe8; padding: 0.5%">descrever</span> seu estado de saúde – com <span style="background-color: #12bfe8; padding: 0.5%">grande extensão e</span> detalhes. Contudo, as pessoas, nas festas, não falam para <span style="background-color: #12bfe8; padding: 0.5%">se instruírem mutuamente</span>. E a pergunta “Como está você?” <span style="background-color: #12bfe8; padding: 0.5%">é uma saudação</span>, não um pedido de informações. (adaptado de COPI, Irving M. Introdução à lógica. 2. ed. São Paulo: Mestre Jou, 1978, p. 47)
+					</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="paper" style="height: 363px;">
+    				<div class="paper-content">
+					<textarea placeholder="[Transcreva o parágrafo que você escolheu, excluindo as palavras supérfluas]"></textarea>
+					</div>
+					</div>
+				</div>
+			</div>
+      </div>
+			<button class="bg-marker4" data-toggle="collapse" data-target="#item-3" id="botao-3" disabled><p class="sub" style="margin-bottom: 0;"><b style="color: #009691;">3.1 - </b>Trocar palavras por sinônimos.</p></button>
+					<div class="container">
+		<div class="collapse" id="item-3">
+		  <div class="timeline-item">
+		  <p style="margin-top: 1rem;"></p>
+			<div class="row">
+			    <div class="col-12 col-md-6">
+					<div class="contorno">
+					<p style="text-align: left; padding: 0.5%;">
+						Mais de uma pessoa foi ouvida dizendo: “Fulano me perguntou como eu estava. Que <span style="background-color: #12bfe8; padding: 0.5%">falso</span>! Se ele não <span style="background-color: #12bfe8; padding: 0.5%">está nem um pouco preocupado</span> como estou!”. <span style="background-color: #12bfe8; padding: 0.5%">Esses</span> comentários revelam uma falta de compreensão dos <span style="background-color: #12bfe8; padding: 0.5%">objetivos da</span> <span style="background-color: #9086b2; padding: 0.5%">linguagem</span>. Isto também se manifesta <span style="background-color: #12bfe8; padding: 0.5%">no comportamento</span> do sujeito <span style="background-color: #12bfe8; padding: 0.5%">chato</span> que, quando se lhe pergunta como está, passa logo a <span style="background-color: #12bfe8; padding: 0.5%">descrever</span> seu estado de saúde – com <span style="background-color: #12bfe8; padding: 0.5%">muitos</span> detalhes. Contudo, as pessoas, nas festas, não falam para <span style="background-color: #12bfe8; padding: 0.5%">ensinarem umas às outras</span>. E a pergunta “Como está você?” é <span style="background-color: #12bfe8; padding: 0.5%">um cumprimento</span>, não um pedido de informações. (adaptado de COPI, Irving M. Introdução à lógica. 2. ed. São Paulo: Mestre Jou, 1978, p. 47)
+					</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="paper3">
+    				<div class="paper-content">
+					<textarea placeholder="[Transcreva o parágrafo alterado, trocando as palavras que você tinha escolhido por sinônimos]"></textarea>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>			
+	<button class="bg-marker5" data-toggle="collapse" data-target="#item-4" id="botao-4" disabled><p class="sub" style="margin-bottom: 0;"><b style="color: #009691;">3.2 - </b>Mexer na estrutura ou na ordem das frases.</p></button>
+					<div class="container">
+		<div class="collapse" id="item-4">
+		    <div class="row">
+		    	<p style="margin-top: 1rem; margin-left: 1%;"><i>Experimente reescrever ainda mais o texto. Por exemplo, quando aparecem verbos na voz passiva, é possível inverter o sujeito e o predicado e colocar o verbo na voz ativa.</i></p>
+		    </div>
+			<div class="row">
+			    <div class="col-12 col-md-6">
+					
+					<div class="contorno">
+					<p style="text-align: left; padding: 0.5%;"><span style="background-color: #ffe270; padding: 0.5%">Ouviu-se mais de uma pessoa dizer</span>: “Fulano me perguntou como eu estava. Que falso! Se ele não está nem um pouco preocupado como estou!”. Esses comentários revelam uma falta de compreensão dos objetivos da linguagem. <span style="background-color: #ffe270; padding: 0.5%">O comportamento do sujeito chato que, quando lhe perguntam como está passa logo a apresentar seu estado de saúde com muitos detalhes, também manifesta isto</span>. Contudo, as pessoas, nas festas, não falam para ensinarem umas às outras. E a pergunta “Como está você?” é um cumprimento, não um pedido de informações. (adaptado de COPI, Irving M. Introdução à lógica. 2. ed. São Paulo: Mestre Jou, 1978, p. 47)
+					</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="paper4">
+    				<div class="paper-content">
+					<textarea placeholder="[Transcreva a última versão do parágrafo alterado, mexendo na estrutura ou na ordem das frases]"></textarea>
+					</div>
+					</div>
+				</div>
+			</div>	
+</div>
+</div>
+</div>
+</div>
+</div>
+	<button class="bg-marker6" data-toggle="collapse" data-target="#item-5" id="botao-5" disabled><p class="sub" style="margin-bottom: 0;"><b style="color: #009691;">4 - </b>Reescrever livremente.</p></button>
+	<div class="container">
+		<div class="collapse" id="item-5">
+			<div class="row">
+		    	<p style="margin-top: 1rem; margin-left: 1%;"><i>Comece com uma frase em que aparece apenas o sobrenome do autor e, entre parênteses, o ano e a página de onde foi extraída a ideia. Deixe a referência bibliográfica completa para ser colocada no final do seu trabalho.</i></p>
+		    </div>
+			<div class="row">
+			    <div class="col-12 col-md-6">
+					<div class="contorno">
+						<p style="text-align: left; padding: 0.5%;">
+							Ao tratar da linguagem, Copi (1978, p. 47) explica: “Fulano chegou pra mim e disse: ‘Oi! Tudo bem?’. Sujeito falso. Ele não está nem aí comigo!”. Esse é um comentário que mostra que a pessoa não consegue compreender os objetivos da linguagem. Imagine um sujeito chato: quando lhe perguntam “Como você está?”, ele responde, e em detalhes. Mas nas festas as pessoas não conversam para ensinar alguma coisa a alguém. “Como está você?” é apenas um cumprimento.
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="paper5">
+    				<div class="paper-content">
+						<textarea placeholder="[Reescreva livremente as ideias expressas no parágrafo que você tinha escolhido]"></textarea>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="container fim no_print" align="center" style="padding-top: 4%; display: none;">
+		<p>Você chegou ao final do exercício. Compare o trecho que você copiou com o texto que você reescreveu.</p>
+		<p>Gostou do resultado de seu trabalho? Você pode imprimi-lo :)</p>
+		<a href="" class="impressao3" style="color: #00d3cc; font-style: italic;">Clique aqui</a> para imprimir uma versão resumida, apenas com o texto inicial e o final.</p>
+		<p><a href="" class="impressao2" style="color: #00d3cc; font-style: italic;">Clique aqui</a> para imprimir uma versão do exercício passo a passo.</p>
+	</div>
+ </div>
+   
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="cred-rea">
+
+        <!-- Comente em caso de adaptação do REA -->
+        <p>
+          <span>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2019.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</span>
+          <span><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></span>
+        <p>
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <div class="aval-rea d-flex">
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/r/DVGXbk1GeV" target="_blank">Avaliar este recurso</a>
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/r/BU3heRJ9ZP" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Fim da div .esconder-tela-pequena
+  Utilizar essa div caso o REA não se adapte a todos os formatos de tela -->
+  <!-- </div> -->
+
+  <!-- AVISO =+960px -->
+  <!-- Utilizar caso o REA possua limitações quanto aos tamanhos de tela
+  Caso contrário, deletar -->
+  <!-- <div class= "container d-lg-none text-center">
+    <div class="container">
+      <a href="https://univesp.br/" target="_blank">
+        <img src="https://apps.univesp.br/common/logo-univesp-positivo.svg" alt="Logo da Univesp" height="47px" width="135px" class='img-responsive center-block' style="margin-top:4rem">
+      </a>
+    </div>
+    <img src='https://apps.univesp.br/common/aviso-tela.gif' alt="Computador Animado" height="117px" width="160px" class='img-responsive center-block' style="margin-top:3rem">
+    <div style="margin-top:.5rem">
+      <p>
+        <font style=font-family:"Barlow" color="#3b78d1" 'text-center' size="10rem"><b>OPS!</b></font>
+      </p>
+      <p>
+        <font style=font-family:"Verdana" "text-center" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</font>
+      </p>
+    </div>
+  </div> -->
+
+  <!-- Créditos -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Rodolfo Jardim de Azevedo</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Simone Telles Martins Ramos</p>
+
+          <h6>Equipe</h6>
+          <p><span class="funcao">Docente responsável</span>João Candido Fernandes</p>
+          <p><span class="funcao">Coordenação</span>Édison Trombeta</p>
+          <p><span class="funcao">Roteirização e Design Instrucional</span>Alfredo Salvador Vieira Coelho</p>
+          <p><span class="funcao">Ilustração</span>Natasha Higa</p>
+          <p><span class="funcao">Layout</span>Natasha Higa</p>
+          <p><span class="funcao">Programação</span>Celso de Oliveira</p>
+
+        </div>
+        <div class="modal-footer">
+          <p>Maio/2019</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+  var share = $("#share-buttons");
+  var page_title = $(document).attr('title');
+  var page_url = window.location.href;
+  share.jsSocials({
+    shares: [
+      {
+        share: "facebook",
+        label: "Facebook",
+        logo: "fab fa-facebook-f",
+      },
+      {
+        share: "twitter",
+        label: "Twitter",
+        logo: "fab fa-twitter",
+      },
+      {
+        share: "whatsapp",
+        label: "Whatsapp",
+        logo: "fab fa-whatsapp",
+      },
+    ],
+    url: page_url,
+    text: 'Confira o REA ' + page_title + '.',
+    showLabel: true,
+    showCount: false,
+    shareIn: "popup",
+  });
+  </script>
+
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>
